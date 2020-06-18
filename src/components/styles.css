@@ -1,0 +1,75 @@
+/*.container{
+	height: 50vh;
+	background: violet;
+}
+*/
+.parent_container{
+	margin-top: 50px;
+}
+
+.heading{
+	padding: 10px 0;
+	text-align: center;
+	font-size: 60px;
+	margin: 10px;
+}
+
+.board{
+	display: inline-block;
+	background: pink;
+	padding: 20px;
+}
+
+.square{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border: 2px solid white;
+}
+
+.square_questionmark {
+	display: inline-block;
+	background: black;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font-size: xxx-large;
+	vertical-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square_diamond{
+	display: inline-block;
+	background: yellow;
+	height: 100%;
+	width: 100%;
+	color: red;
+	font-size: xxx-large;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square_blank{
+	display: inline-block;
+	background: grey;
+	height: 100%;
+	width: 100%;
+	font-size: xxx-large;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+@media screen and (max-width: 550px) {
+	.heading {
+		font-size: 40px;
+	}
+	.square{
+		width: 100px;
+		height: 100px;
+	}
+}
