@@ -23,12 +23,13 @@ class Square extends React.Component {
 		return(
 			<span className="square" onClick={this.handleClick}>
 				{!this.state.diamondPresent && !this.state.blank ? 
-				(<span className="square_questionmark">?</span>) : 
-				(
-					this.state.diamondPresent ? 
-					(<span className="square_diamond">*</span>) : 
-					(<span className="square_blank">/</span>)
-				)}
+					(<span className="square_questionmark">?</span>) : 
+					(
+						this.state.diamondPresent ? 
+						(<span className="square_diamond">*</span>) : 
+						(<span className="square_blank">/</span>)
+					)
+				}
 			</span>
 		);
 	}

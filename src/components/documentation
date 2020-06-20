@@ -1,0 +1,6 @@
+I have made I diamond sweeper of size 3*3
+and the players are supposed to find 3 diamonds.
+I am also storing the high score in local storage so that we can use it everytime.
+
+I have on parent component called Board.js
+inside that I am calling Square component and passing it values.
